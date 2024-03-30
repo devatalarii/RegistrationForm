@@ -1,0 +1,144 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 400px;
+  padding: 60px;
+  border-radius: 5px;
+}
+
+.title {
+  color: #ea580c;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.label-1 {
+  font-size: 10px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.label-2 {
+  font-size: 10px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.input-firstName {
+  height: 30px;
+  border: 1px solid #cbd2d9;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.input-firstName1 {
+  height: 30px;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 2px solid #ff0b37;
+  margin-bottom: 0px;
+  background-color: #fef2f4;
+}
+
+.input-lastName {
+  height: 30px;
+  border: 1px solid #cbd2d9;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.input-lastName1 {
+  height: 30px;
+  border: 2px solid #ff0b37;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  outline: none;
+  background-color: #fef2f4;
+}
+
+.submit-button {
+  width: 65px;
+  font-size: 10px;
+  height: 25px;
+  color: #ffffff;
+  background-color: #ea580c;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.message {
+  color: #ff0b37;
+  margin-bottom: 10px;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.message1 {
+  color: #ff0b37;
+  margin-bottom: 10px;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.success-image {
+  width: 60px;
+  height: 60px;
+}
+
+.submit-form-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 400px;
+  padding: 60px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-another-response-button {
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 180px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
